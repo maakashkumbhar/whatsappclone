@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:whatsappclone/widgets/callsWidget.dart';
 
 class Calls extends StatefulWidget {
   @override
@@ -8,6 +9,8 @@ class Calls extends StatefulWidget {
 class _CallsState extends State<Calls> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Container(
+      child: ListofCalls(),
+    );
   }
 }

@@ -21,6 +21,16 @@ class _HomeState extends State<Home> {
         appBar: AppBar(
           backgroundColor: Color(0xff075e54),
           title: Text('WhatsApp'),
+          actions: [
+            Icon(Icons.search),
+            SizedBox(
+              width: 10,
+            ),
+            Icon(Icons.menu),
+            SizedBox(
+              width: 10,
+            )
+          ],
           bottom: TabBar(
             tabs: [
               Tab(
